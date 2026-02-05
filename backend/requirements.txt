@@ -1,0 +1,40 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pydantic
+pydantic-settings
+
+# CORS (Built-in middleware is usually preferred, but keeping for compatibility if needed)
+fastapi-cors==0.0.6
+
+# Speech-to-Text
+openai-whisper
+torch
+torchaudio
+noisereduce
+soundfile
+numpy
+tqdm
+
+# RAG Components
+langchain>=0.1.0
+langchain-community
+chromadb
+sentence-transformers
+pypdf
+python-docx
+
+# Evaluation
+ragas
+datasets
+pandas
+matplotlib
+seaborn
+
+# Utilities
+python-dotenv
+loguru
+
+# Development
+pre-commit
+black
